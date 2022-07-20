@@ -1,0 +1,137 @@
+/*------------ 
+header section
+-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;500&family=Josefin+Sans:ital,wght@0,500;1,500&family=Libre+Baskerville:wght@700&family=Lobster&family=PT+Sans&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@500&family=Raleway&family=Ubuntu&display=swap');
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0%;
+}
+.top-banner{
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    margin: 5% 10%;
+    padding: 5% 7% 0 7%;
+    border-radius: 25px;
+}
+.top-banner img{
+    width: 100%;
+}
+.half-width{
+    color: rgb(251, 251, 251);
+    width: 50%;
+    padding-left: 2%;
+}
+
+.live-button{
+    background-color: red;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 3px;
+}
+/*------------ 
+Main section
+-------------- */
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: rgb(26, 26, 26);
+    border-radius: 10px;
+    height: 10em;
+    margin-right: 2%;
+    padding: 0.6%;
+}
+.buttons>button{
+    margin: 5% 8%;
+    padding: 6% 7%;
+    border-radius: 10px;
+    font-size: 12px;
+    border: none;
+}
+.blog-button{
+    background-color: rgb(159, 3, 3);
+    color: white;
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 10px;
+   
+}
+.card img{
+    width: 100%;
+}
+.description{
+    padding: 5%;
+    font-size: 0.7em;
+}
+.cards{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+}
+.news{
+    display: flex;
+    margin: 9%;
+}
+
+.upcoming-button {
+    background-color: rgb(159, 3, 3);
+    color: white;
+}
+
+.matches {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 6%;
+    column-gap: 3%;
+}
+
+.match-detail {
+    border: 1px solid rgba(212, 211, 211, 0.856);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 15px;
+}
+
+.match-time {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.country {
+    display: flex;
+}
+
+.country img {
+    width: 40%;
+    padding: 5px;
+}
+/*---------------
+footer section
+-------------- */
+
+footer{
+    text-align: center;
+    text-decoration: none;
+    background-color: rgb(26, 26, 26);
+    padding: 6%;
+}
+footer>h3{
+    color: white;
+    padding-bottom: 3% ;
+    border-bottom: 1px solid gray;
+}
+.other-links > a{
+    text-decoration: none;
+    color: gray;
+    padding: 1%;
+    font-size: 12px;
+}
+.other-links{
+    padding: 3%;
+}
